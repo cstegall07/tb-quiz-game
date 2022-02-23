@@ -1,4 +1,4 @@
-#Quiz Game Project
+# Quiz Game Project
 Scenario: 
 - As a Boot Camp Instructor 
 I wish to create a timed quiz on CSS fundamentals that stores high scores so that I can gauge my student's progress compared to their peers. 
