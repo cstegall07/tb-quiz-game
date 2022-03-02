@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Quiz Game</title>>
+    <!-- <script src="main.js"></script> -->
+    <title>Quiz Game</title>
 </head>
 <body>
-    <div class ="welcome center">
-        <p>Test your front end developer skills by answering the following questions.</p>
-        <a href="question.html">
-            <button id="btnBegin" onclick="doSomething();">Begin</button>
-        </a>
+    <div id="main center">
+        <div id="welcome" class="center">
+            <p>Test your front end developer skills by answering the following questions.</p>
+            <button id="btnBegin" onclick="doGame();">Begin</button>
+        </div>
+        <div id="score-board" class="hide">
+            <div id="timerContainer">Time Remaining: <span id="timer" style="text-align:left"></span></div>
+            <div id="scoreContainer">Score: <span id="score" style="text-align:right"></span></div>
+        </div>
+        <div id="question"></div>
+        </div>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
